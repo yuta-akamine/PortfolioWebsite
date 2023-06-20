@@ -1,5 +1,5 @@
 <?php
-phpinfo();
+// phpinfo();
 include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
 
 ?>
