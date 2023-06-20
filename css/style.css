@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/* Webフォント(Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap');
+
+/*全ページ共通のスタイル*/
+html {
+  height: 100%;
+}
+
+/*コンポーネント*/
+.topspace {
+  margin-top: 30px
+}
+
+.bottomspace {
+	margin-bottom: 30px;
+}
+
+/* ヘッダーフッター共通 */
+hr {
+  clear:both;
+}
+
+/* ヘッダーのスタイル */
+/* ヘッダーメニューセンター揃え */
+header {
+  text-align: center;
+}
+
+/* フッターのスタイル */
+footer {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  /* padding: 0 20px; */
+}
+
+footer p {
+  /* display: inline-block; */
+  float: right;
+}
+
+/* フッターのアイコン */
+.footericons a:hover {
+  text-decoration: none;  /* 下線を消す */
+}
+
+.footericon {
+  float: left;
+}
+
+/* フッターTwitterアイコン */
+.fa-twitter {
+  /* margin-left: 30px; */
+  color:lightskyblue
+}
+
+
+body {
+  height: 100%;
+  /* background-image: url();
+  background-repeat: url(); */
+}
+
+.wrapper {
+  /* margin: 0 auto; */
+  /* margin-bottom: 20px; */
+  /* padding: 20px; */
+  /* width: 800px; */
+}
+
+/* mainタグsectionタグ内レイアウト */
+section {
+  padding: 0 100px;
+}
+
+.maintitle {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 100;
+  text-align: center;
+}
+
+/* リンクスタイル */
+a {
+  color: black;
+  text-decoration: none;  /* 下線を消す */
+}
+
+a:hover {
+  color: lightslategrey;
+  text-decoration: underline;  /* 下線を入れる */
+}
+
+.maintitle a:hover {
+  text-decoration: none;  /* 下線を消す */
+}
+
+/* Profileファイル */
+.profilebox {
+  float: left;
+  min-width: 80px;
+}
+
+img {
+
+}
+
+/* .ddbox {
+
+} */
+
+/* Developmentファイル */
+.developbox {
+  float: left;
+  min-width: 130px;
+}
+
+summary {
+  font-weight: bold;
+}
+
+/* Skillsファイル */
+/* .skillslist {
+  clear:both;
+} */
+
+h4 {
+  clear:both;
+}
+
+/* Skills画像 */
+.skillsicon {
+  /* min-width: 60px; */
+  min-height: 60px;
+  float: left;
+  text-align: center;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  /* margin-top: 20px;
+  margin-left: 20px; */
+}
+
+/* Font Awesome読込みアイコン */
+/* 共通アイコン */
+.fab {
+  margin-right: 15px;
+}
+
+.fa-html5 {
+  color:lightskyblue
+}
+
+.fa-html5 {
+  color:rgb(255, 123, 0);
+}
+
+.fa-css3-alt {
+  color:rgb(135, 198, 250);
+}
+
+.fa-js {
+  color:rgb(250, 238, 135);
+}
+
+.fa-php {
+  color:rgb(135, 146, 250);
+}
+
+.fa-java {
+  color: black;
+}
+
+a:active {
+  /* color: #ff6a3b; */
+}
+
+
+/* index.html固有のスタイル*/
+
+
+テストスタイル
+#tooltip {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 9999;
+}
+
