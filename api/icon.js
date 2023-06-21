@@ -198,7 +198,7 @@ function eclipseshowTooltip(event) {
 function androidshowTooltip(event) {
   // マウスの位置にツールチップを表示
   androidtooltip.style.display = "inline";
-  androidtooltip.innerText = "Android";
+  androidtooltip.innerText = "Android Studio";
 }
 
 // ツールチップを表示する関数(GitHub)
