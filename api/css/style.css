@@ -96,7 +96,7 @@ a:hover {
   text-decoration: underline;  /* 下線を入れる */
 }
 
-.maintitle a:hover {
+.nounderline a:hover {
   text-decoration: none;  /* 下線を消す */
 }
 
@@ -120,8 +120,19 @@ img {
   min-width: 130px;
 }
 
-summary {
-  font-weight: bold;
+/* summary {
+  font-weight: nomal;
+} */
+
+details {
+  height: auto;
+}
+
+.toguru {
+  display: inline-block;
+  font-size: px;
+  font-weight: 700;
+  /* height: auto; */
 }
 
 /* Skillsファイル */
