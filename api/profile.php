@@ -14,7 +14,7 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
 
         <h3 class="subtitle bottomspace col-sm-2">Profile</h3>
 
-        <p class="txtBox" col-sm-10">
+        <p class="txtBox bottomspace">
           エンジニアとして就職を目指し、楽しみながらプログラミングを学習中です。
           <br>
           2023年1月からポリテクセンター沖縄 ITサポート科にて学習中。
@@ -27,7 +27,7 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
       </div>  <!-- <div class="row"> -->
 
       <dt class="profilebox">Name:</dt>
-      <dd class="ddbox">赤嶺 佑太    Yuta Akamine</dd>
+      <dd class="ddbox">赤嶺 佑太</dd>
 
       <dt class="profilebox">Address:</dt>
       <dd>沖縄県うるま市</dd>
