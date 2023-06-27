@@ -6,6 +6,8 @@
 /*全ページ共通のスタイル*/
 html {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /*コンポーネント*/
@@ -40,6 +42,10 @@ footer p {
   float: right;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 /* フッターのアイコン */
 .footericons a:hover {
   text-decoration: none;  /* 下線を消す */
@@ -58,12 +64,14 @@ footer p {
 
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
   /* background-image: url();
   background-repeat: url(); */
 }
 
 .wrapper {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* margin-bottom: 20px; */
   /* padding: 20px; */
   /* width: 800px; */
@@ -136,9 +144,10 @@ details {
 }
 
 /* Skillsファイル */
-/* .skillslist {
-  clear:both;
-} */
+.skillslist {
+  margin: 0 auto;
+  /* clear:both; */
+}
 
 h4 {
   clear:both;
