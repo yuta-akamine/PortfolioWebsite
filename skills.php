@@ -12,9 +12,15 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
 
       <div class="row">
 
-      <h3 class="subtitle bottomspace col-sm-2">Skills</h3>
+        <h3 class="subtitle bottomspace col-sm-2">Skills</h3>
 
       </div>  <!-- <div class="row"> -->
+
+      <p class="txtBox bottomspace">
+        現在までに学習中のスキル一覧です。<br>
+        現在は基礎的なコーディングしかできないため、今後より複雑な開発ができるよう、<br>
+        知見を広げながら、現在学習中のスキルもより技術力を高めていきたいです。
+      </p>
 
       <div class="skillsbox">
 
@@ -28,32 +34,26 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
           <div class="skillsicon">
             <img src="images/HTML.png" alt="" id="html" onmouseover="showSlideContent()">
             <i id="htmlExplanation"></i>
-            <!-- <p>HTML</p> -->
           </div>
 
           <div class="skillsicon">
             <img src="images/CSS.png" alt="" id="css" onmouseover="showSlideContent()">
             <i id="cssExplanation"></i>
-            <!-- <p>CSS</p> -->
           </div>
           
           <div class="skillsicon">
             <img src="images/JavaScript.png" alt="" id="js" onmouseover="showSlideContent()">
             <i id="jsExplanation"></i>
-            <!-- <p>JavaScript</p> -->
-            
           </div>
           
           <div class="skillsicon">
             <img src="images/PHP.png" alt="" id="php" onmouseover="showSlideContent()">
             <i id="phpExplanation"></i>
-            <!-- <p>PHP</p> -->
           </div>
           
           <div class="skillsicon">
             <img src="images/Java.png" alt="" id="java" onmouseover="showSlideContent()">
             <i id="javaExplanation"></i>
-            <!-- <p>Java</p> -->
           </div>
         
         </div> <!-- <div class="skillslist"> -->
@@ -61,10 +61,10 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
         <div class="skillslist">
 
           <h4 class="topspace">Database</h4>
+
           <div class="skillsicon">
             <img src="images/MySQL.png" alt="" id="mysql" onmouseover="showSlideContent()">
             <i id="mysqlExplanation"></i>
-            <!-- <p>MySQL</p> -->
           </div>
 
         </div> <!-- <div class="skillslist"> -->
@@ -72,6 +72,7 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
         <div class="skillslist">
 
           <h4  class="topspace">Cloud Service</h4>
+
           <div class="skillsicon">
             <img src="images/Heroku.png" alt="" id="heroku" onmouseover="showSlideContent()">
             <i id="herokuExplanation"></i>
@@ -82,6 +83,7 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
         <div class="skillslist">
 
           <h4  class="topspace">Development Tool</h4>
+
           <div class="skillsicon">
             <img src="images/Visual Studio Code.png" alt="" id="vscode" onmouseover="showSlideContent()">
             <i id="vscodeExplanation"></i>
@@ -103,11 +105,12 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
           </div>
 
         </div> <!-- <div class="skillslist"> -->
-
+          
         
         <div class="skillslist">
 
           <h4 class="topspace">Others</h4>
+          
           <div class="skillsicon nounderline">
             <!-- https://icons8.jp/license フリーで利用するための規約 アイコンを使用する各ページにリンクを設置-->
             <a href="https://icons8.jp/" target="_blank">
@@ -126,7 +129,7 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
             <i id="slackExplanation"></i>
           </div>
 
-          <div class="skillsicon bottomspace">
+          <div class="skillsicon">
             <img src="images/Notion.png" alt="" id="notion" onmouseover="showSlideContent()">
             <i id="notionExplanation"></i>
           </div>

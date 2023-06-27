@@ -13,18 +13,21 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
       <div class="row">
 
         <h3 class="subtitle bottomspace col-sm-2">Profile</h3>
+        
+      </div>  <!-- <div class="row"> -->
 
         <p class="txtBox bottomspace">
           エンジニアとして就職を目指し、楽しみながらプログラミングを学習中です。
           <br>
           2023年1月からポリテクセンター沖縄 ITサポート科にて学習中。
+          <!-- 2023年6月末ポリテクセンター沖縄 ITサポート科修了。 -->
           <br>
-          職業訓練校での学習内容は
+          ※職業訓練校での学習内容は
           <a href="https://www3.jeed.go.jp/okinawa/poly/kyushoku/course/itsupport.html" target="_blank">こちら</a>
           をご参照ください。
+          <!-- <br>
+          現在は独学でプログラミング学習中です。 -->
         </p>
-
-      </div>  <!-- <div class="row"> -->
 
       <dt class="profilebox">Name:</dt>
       <dd class="ddbox">赤嶺 佑太</dd>

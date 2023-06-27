@@ -9,12 +9,18 @@ include(dirname ( __FILE__ ) . '/header.html'); //ヘッダーを読み込み
   <main>
 
     <section>
-      
+
       <div class="row">
 
         <h3 class="subtitle bottomspace col-sm-2">Development</h3>
 
       </div>  <!-- <div class="row"> -->
+
+      <p class="txtBox bottomspace">
+        現在開発中のものを含めてこれまでに開発したWebサービス一覧です。<br>
+        今後より開発実績を増やしていきたいと考えています。
+      </p>
+
 
       <details>
         <summary>
