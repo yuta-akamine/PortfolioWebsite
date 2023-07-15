@@ -129,10 +129,12 @@ img {
 }
 
 /* summary {
-  font-weight: nomal;
+  display: inline-block;
+  /* font-weight: nomal; */
 } */
 
 details {
+  /* display: inline-block; */
   height: auto;
 }
 
