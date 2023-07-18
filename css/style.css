@@ -26,13 +26,14 @@ header {
 
 /* フッターのスタイル */
 footer {
+  width: 80%;
+  height: auto;
   padding-bottom: 40px;
   padding-left: 20px;
-  /* padding: 0 20px; */
+  margin: auto;
 }
 
 footer p {
-  /* display: inline-block; */
   float: right;
 }
 
@@ -41,6 +42,10 @@ footer p {
 }
 
 /* フッターのアイコン */
+.footericons {
+  margin: auto;
+}
+
 .footericons a:hover {
   text-decoration: none;  /* 下線を消す */
 }
@@ -57,7 +62,8 @@ footer p {
 
 
 body {
-  height: 100%;
+  width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   /* background-image: url();
@@ -65,14 +71,15 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  /* margin-bottom: 20px; */
-  /* padding: 20px; */
-  /* width: 800px; */
+  width: 100%;
+  height: auto;
 }
+
 
 /* mainタグsectionタグ内レイアウト */
 section {
+  width: 100%;
+  height: auto;
   padding: 0 100px;
 }
 
@@ -93,6 +100,11 @@ a {
   text-decoration: none;  /* 下線を消す */
 }
 
+nav a,
+h1 a {
+  transition: all .5s;
+}
+
 a:hover {
   color: lightslategrey;
   text-decoration: underline;  /* 下線を入れる */
@@ -107,14 +119,6 @@ a:hover {
   float: left;
   min-width: 80px;
 }
-
-img {
-
-}
-
-/* .ddbox {
-
-} */
 
 /* Developmentファイル */
 .developbox {
@@ -141,13 +145,18 @@ details {
 }
 
 /* Skillsファイル */
+.skillsbox {
+  width: 100%;
+}
+
 .skillslist {
+  width: 100%;
   margin: 0 auto;
   /* clear:both; */
 }
 
 h4 {
-  clear:both;
+  clear: both;
 }
 
 /* Skills画像 */
@@ -196,10 +205,6 @@ img {
 
 .fa-java {
   color: black;
-}
-
-a:active {
-  /* color: #ff6a3b; */
 }
 
 
