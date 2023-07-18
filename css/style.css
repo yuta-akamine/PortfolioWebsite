@@ -4,12 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap');
 
 /*全ページ共通のスタイル*/
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 /*コンポーネント*/
 .topspace {
   margin-top: 30px
@@ -130,7 +124,8 @@ img {
 
 /* summary {
   display: inline-block;
-  /* font-weight: nomal; */
+  width: 200px;
+  font-weight: nomal;
 } */
 
 details {
