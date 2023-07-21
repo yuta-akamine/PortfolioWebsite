@@ -4,18 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap');
 
 /*全ページ共通のスタイル*/
-/*コンポーネント*/
-.topspace {
-  margin-top: 30px
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  /* background-image: url();
+  background-repeat: url(); */
 }
 
-.bottomspace {
-	margin-bottom: 30px;
-}
-
-/* ヘッダーフッター共通 */
-hr {
-  clear:both;
+.container {
+  margin: 0 auto;
 }
 
 /* ヘッダーのスタイル */
@@ -37,8 +36,21 @@ footer p {
   float: right;
 }
 
-.container {
-  margin: 0 auto;
+/* メイン */
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  height: auto;
+}
+
+/* mainタグsectionタグ内レイアウト */
+section {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
 }
 
 /* フッターのアイコン */
@@ -60,27 +72,18 @@ footer p {
   color:lightskyblue
 }
 
-
-body {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  /* background-image: url();
-  background-repeat: url(); */
+/* ヘッダーフッター共通 */
+hr {
+  clear:both;
 }
 
-.wrapper {
-  width: 100%;
-  height: auto;
+/*コンポーネント*/
+.topspace {
+  margin-top: 30px
 }
 
-
-/* mainタグsectionタグ内レイアウト */
-section {
-  width: 100%;
-  height: auto;
-  padding: 0 100px;
+.bottomspace {
+	margin-bottom: 30px;
 }
 
 .maintitle {
@@ -139,7 +142,7 @@ details {
 
 .toguru {
   display: inline-block;
-  font-size: px;
+  /* font-size: px; */
   font-weight: 700;
   /* height: auto; */
 }
@@ -150,7 +153,8 @@ details {
 }
 
 .skillslist {
-  width: 100%;
+  /* width: 100%; */
+  height: auto;
   margin: 0 auto;
   /* clear:both; */
 }
@@ -206,18 +210,3 @@ img {
 .fa-java {
   color: black;
 }
-
-
-/* index.html固有のスタイル*/
-
-
-テストスタイル
-#tooltip {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 10px;
-  z-index: 9999;
-}
-
