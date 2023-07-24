@@ -15,6 +15,7 @@ body {
 
 .container {
   margin: 0 auto;
+  height: auto;
 }
 
 /* ヘッダーのスタイル */
@@ -27,13 +28,32 @@ header {
 footer {
   width: 80%;
   height: auto;
-  padding-bottom: 40px;
-  padding-left: 20px;
+  padding-bottom: 16px;
+  /* padding-left: 20px; */
+  margin: auto;
+}
+
+/* フッターのアイテム */
+.footeritems {
+  /* display: flex;
+	justify-content: space-between; */
+  /* margin-bottom: 16px; */
+	/* align-items: center; */
   margin: auto;
 }
 
 footer p {
   float: right;
+}
+
+.footeritems a:hover {
+  text-decoration: none;  /* 下線を消す */
+}
+
+/* フッターTwitterアイコン */
+.fa-twitter {
+  /* margin-left: 30px; */
+  color:lightskyblue
 }
 
 /* メイン */
@@ -43,6 +63,7 @@ footer p {
 }
 
 main {
+  width: 100%;
   height: auto;
 }
 
@@ -51,25 +72,6 @@ section {
   width: 100%;
   height: auto;
   padding: 0 100px;
-}
-
-/* フッターのアイコン */
-.footericons {
-  margin: auto;
-}
-
-.footericons a:hover {
-  text-decoration: none;  /* 下線を消す */
-}
-
-.footericon {
-  float: left;
-}
-
-/* フッターTwitterアイコン */
-.fa-twitter {
-  /* margin-left: 30px; */
-  color:lightskyblue
 }
 
 /* ヘッダーフッター共通 */
@@ -150,13 +152,14 @@ details {
 /* Skillsファイル */
 .skillsbox {
   width: 100%;
+  height: auto;
 }
 
 .skillslist {
-  /* width: 100%; */
+  width: 100%;
   height: auto;
   margin: 0 auto;
-  /* clear:both; */
+  clear: both; 
 }
 
 h4 {
